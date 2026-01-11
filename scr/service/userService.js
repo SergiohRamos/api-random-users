@@ -23,7 +23,7 @@ const userService = {
             senha: rUsuarios.login.md5
           };
 
-          if (usuario.idade < 40) {
+          if (usuario.idade < 18) {
             contIgnorados++;
             continue;
           }
